@@ -1,0 +1,25 @@
+.title{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+color: rgb(230, 166, 107);
+margin-top: 3rem;
+margin-bottom: 2rem;
+}
+
+.greeting{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:left;
+    color:rgb(27, 26, 26);
+}
+
+
+.container h1 svg {
+    color: rgb(230, 166, 107);
+    font-size:40px;
+ 
+
+}
