@@ -4,9 +4,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar'; 
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import CartWidget from './CartWidget';
-import './CartWidget.css';
-import './NavBar.css';
+import './NavBar.css'
+import '../CartWidget/CartWidget.css'
+import CartWidget from '../CartWidget/CartWidget';
+import Counter from '../ItemCount/ItemCount';
 
 const NavBar = () => {
     return(
@@ -28,7 +29,8 @@ const NavBar = () => {
             />
             <Button variant="outline-danger">Search</Button>
           </Form>
-          <CartWidget />
+          <CartWidget/>
+          <Counter/>
           </Container>
       </Navbar> 
     );
