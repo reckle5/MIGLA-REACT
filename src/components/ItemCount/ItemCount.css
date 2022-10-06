@@ -1,0 +1,8 @@
+.counterStyle{
+    display: flex;
+    align-items: center;
+justify-content: center;
+    width: 55px;
+    height: 25px;
+}
+

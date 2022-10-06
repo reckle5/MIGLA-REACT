@@ -1,8 +1,16 @@
-.tarjetaContenedora{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
+.img-productos{
+    height: 328px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.text{
+display: flex;
+justify-content: flex-end;
+margin-right: 10px;
+    
+}
+
+.boton{
+    margin-left: 60%;
 }
