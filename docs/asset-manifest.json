@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.17459e68.css",
-    "main.js": "/static/js/main.670c0c75.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/index.html",
-    "main.17459e68.css.map": "/static/css/main.17459e68.css.map",
-    "main.670c0c75.js.map": "/static/js/main.670c0c75.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/MIGLA-REACT/static/css/main.17459e68.css",
+    "main.js": "/MIGLA-REACT/static/js/main.155bae67.js",
+    "static/js/787.28cb0dcd.chunk.js": "/MIGLA-REACT/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/MIGLA-REACT/index.html",
+    "main.17459e68.css.map": "/MIGLA-REACT/static/css/main.17459e68.css.map",
+    "main.155bae67.js.map": "/MIGLA-REACT/static/js/main.155bae67.js.map",
+    "787.28cb0dcd.chunk.js.map": "/MIGLA-REACT/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17459e68.css",
-    "static/js/main.670c0c75.js"
+    "static/js/main.155bae67.js"
   ]
 }
