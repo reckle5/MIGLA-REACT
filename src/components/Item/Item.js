@@ -1,7 +1,9 @@
+
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import './Item.css';
+
 
 
 
@@ -18,7 +20,7 @@ return (
         </Card.Text>
        
          <Link to={ `/item/${producto.id}`}>
-        <Button className='boton' variant="outline-success">Ver detalle</Button>
+         <Button className='boton' variant="outline-success">Ver detalle</Button>
         </Link>
       </Card.Body>
     </Card>
