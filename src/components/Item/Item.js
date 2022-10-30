@@ -10,7 +10,7 @@ import './Item.css';
 const Item = ({producto}) => {
 return (
  
-    <Card border="primary" style={{ width: '18rem' }}>
+    <Card  border="primary" style={{ width: '18rem' }}>
       <Card.Img className='img-productos' variant="top" src={producto.imagenUrl}/>
       <Card.Body>
         <Card.Title>{producto.nombre}</Card.Title>

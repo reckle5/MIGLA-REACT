@@ -6,3 +6,20 @@ justify-content: center;
     height: 25px;
 }
 
+.boton-count{
+    margin-top: 2rem;
+}
+
+.count{
+  margin-right: 1rem;
+  margin-left: 1rem;
+ 
+}
+
+.boton-agregar{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+
+

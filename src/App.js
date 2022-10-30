@@ -8,51 +8,9 @@ import Cart from './components/Cart/Cart';
 import ItemDetailContainer from './components/Item/ItemDetailContainer';
 import { CacheProvider } from './contexts/CacheContext';
 import {CartProvider} from './contexts/CartContext';
-import { useEffect } from 'react';
-import { collection, doc, getDoc, getDocs, getFirestore} from 'firebase/firestore';
-
 function App (){
-//acceso a un doc especifico
-  useEffect(() => {
-    //se obtiene la base de datos
-    const dataBase = getFirestore()
-    // referencia al doc
-    const itemReference = doc(dataBase, "items", "oU5SYCvbWVxnVb5emtfH");
-    // el doc apartir de la referencia
-    getDoc(itemReference)
-    .then((snapshot) => {
-      //existe el doc
-      if(snapshot.exists()){
-        //arma objeto literal con el id y demas campos del doc
-      const item = {
-        id: snapshot.id,
-        ...snapshot.data()
-    };
-    console.log(item)
-  }
-    })
-    .catch(error => console.warn(error))
-  
-  }, []);
 
-  //acceso a una coleccion
-  useEffect(() =>{
-    const dataBase = getFirestore();
-
-    const collectionReference = collection(dataBase, "items")
-
-    getDocs(collectionReference)
-    .then((snapshot) =>{
-      const list = snapshot.docs.map((doc) => ({
-        id: doc.id,
-        ...doc.data()
-      }))
-      console.log(list)
-
-    })
-    .catch(error => console.warn(error))
-
-  }, []);
+ 
 
   return(
     <BrowserRouter basename="MIGLA-REACT">

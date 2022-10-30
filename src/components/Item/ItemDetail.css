@@ -1,0 +1,27 @@
+.card-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20rem;
+    margin-top: 10rem;
+    background-color: rgb(241, 223, 213);
+    padding: 4rem;
+    border-radius: 8px;
+}
+
+
+.card-text {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.card-text h2{
+    font-size: 24px;
+}
+
+.card-text h1{
+    font-size: 24px;
+    color: rgb(105, 99, 99);
+}
+
+
