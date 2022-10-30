@@ -14,7 +14,7 @@ Este proyecto fue creado con:
 
 ### DEMO
 
-![] (https://firebasestorage.googleapis.com/v0/b/react-ecommerce-5929e.appspot.com/o/Recording%202022-10-30%20at%2000.33.55.gif?alt=media&token=ee0f7152-965a-4207-82e7-4409cf5b767d)
+![](https://firebasestorage.googleapis.com/v0/b/react-ecommerce-5929e.appspot.com/o/Recording%202022-10-30%20at%2000.33.55.gif?alt=media&token=ee0f7152-965a-4207-82e7-4409cf5b767d)
 
 ### Estructura de directorios
 
