@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MIGLA-REACT/static/css/main.bf2187e5.css",
+    "main.js": "/MIGLA-REACT/static/js/main.f6d3bdfd.js",
+    "static/js/787.28cb0dcd.chunk.js": "/MIGLA-REACT/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/MIGLA-REACT/index.html",
+    "main.bf2187e5.css.map": "/MIGLA-REACT/static/css/main.bf2187e5.css.map",
+    "main.f6d3bdfd.js.map": "/MIGLA-REACT/static/js/main.f6d3bdfd.js.map",
+    "787.28cb0dcd.chunk.js.map": "/MIGLA-REACT/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf2187e5.css",
+    "static/js/main.f6d3bdfd.js"
+  ]
+}
